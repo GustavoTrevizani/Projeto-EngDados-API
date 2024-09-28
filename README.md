@@ -37,4 +37,7 @@ Este projeto faz parte do curso de Engenharia de Dados da **GrowDev** em parceri
 2. **Transferência (transient_to_bronze)**: Movimenta os dados brutos para a camada bronze.
 3. **Transformação (bronze_to_silver)**: Limpeza e padronização dos dados, movendo-os para a camada silver.
 
+## Criador
 
+Gustavo Trevizani
+- **Linkedin**: [Link para o Linkedin](https://www.linkedin.com/in/gustavo-trevizani-39135a2b7)
