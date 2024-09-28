@@ -28,7 +28,6 @@ Este projeto faz parte do curso de Engenharia de Dados da **GrowDev** em parceri
 
 - **Python**: Linguagem de programação principal.
 - **PySpark**: Processamento distribuído de dados.
-- **AWS S3**: Armazenamento em nuvem para o Data Lake.
 - **SQL**: Linguagem para consultas e manipulação de dados.
 
 ## Fluxo de Trabalho
