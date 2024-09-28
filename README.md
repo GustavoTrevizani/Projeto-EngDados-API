@@ -12,15 +12,15 @@ Este projeto faz parte do curso de Engenharia de Dados da **GrowDev** em parceri
 
 ### Scripts
 
-1. **source_to_transient.py**:
+1. **source_to_transient.ipynb**:
    - **Função**: Este script extrai dados diretamente da fonte externa e armazena temporariamente na camada **transient**.
    - **Objetivo**: Capturar os dados brutos para que possam ser processados de forma mais eficiente antes de serem movidos para o bronze.
 
-2. **transient_to_bronze.py**:
+2. **transient_to_bronze.ipynb**:
    - **Função**: Transfere os dados da camada **transient** para a camada **bronze**, onde são armazenados no Data Lake no formato original.
    - **Objetivo**: Preservar os dados brutos e permitir reprocessamento futuro, se necessário.
 
-3. **bronze_to_silver.py**:
+3. **bronze_to_silver.ipynb**:
    - **Função**: Este script lê os dados da camada **bronze**, aplica transformações (como limpeza, remoção de duplicatas e padronização) e os move para a camada **silver**.
    - **Objetivo**: Preparar os dados para análises mais avançadas, eliminando inconsistências e garantindo a qualidade.
 
