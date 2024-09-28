@@ -24,12 +24,6 @@ Este projeto faz parte do curso de Engenharia de Dados da **GrowDev** em parceri
    - **Função**: Este script lê os dados da camada **bronze**, aplica transformações (como limpeza, remoção de duplicatas e padronização) e os move para a camada **silver**.
    - **Objetivo**: Preparar os dados para análises mais avançadas, eliminando inconsistências e garantindo a qualidade.
 
-### Principais Arquivos
-
-- `main.py`: Orquestra o processo de ETL (Extração, Transformação e Carga) entre as camadas.
-- `config.py`: Define as variáveis de ambiente, como credenciais e caminhos de armazenamento.
-- `requirements.txt`: Lista de dependências do projeto.
-
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação principal.
@@ -43,9 +37,4 @@ Este projeto faz parte do curso de Engenharia de Dados da **GrowDev** em parceri
 2. **Transferência (transient_to_bronze)**: Movimenta os dados brutos para a camada bronze.
 3. **Transformação (bronze_to_silver)**: Limpeza e padronização dos dados, movendo-os para a camada silver.
 
-## Instruções de Execução
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/GustavoTrevizani/Projeto-EngDados-API.git
 
